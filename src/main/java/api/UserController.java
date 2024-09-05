@@ -31,4 +31,11 @@ public class UserController implements BaseApi {
                 .get(BASE_URL+GET_USER_LIST_URL)
                 .thenReturn();
     }
+
+    protected Response pathUpdateUser(String id){
+        return given()
+                .when()
+                .patch(BASE_URL+GET_USER_LIST_URL+"/"+id)
+                .thenReturn();
+    }
 }

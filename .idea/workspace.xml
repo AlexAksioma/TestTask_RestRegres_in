@@ -4,21 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bcaeee3f-4f37-4260-92c1-21e1ee1bb4ab" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/BaseApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dto/ResponseGetUserListDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dto/SupportDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dto/UserDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/tast.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api_tests/GetUsersListTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api_tests/RegistrationTests.java" afterDir="false" />
+    <list default="true" id="bcaeee3f-4f37-4260-92c1-21e1ee1bb4ab" name="Changes" comment="first">
+      <change afterPath="$PROJECT_DIR$/src/test/java/api_tests/PatchUserTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/api/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/UserController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +44,7 @@
     "last_opened_file_path": "C:/QA_Auto_Projects/MyProject/Practice/TestTask_RestRegres_in"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.GetUsersListTests.getUserList_validateEmail">
+  <component name="RunManager" selected="TestNG.PatchUserTests.patchUser">
     <configuration name="GetUsersListTests.getUserList_validateEmail" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestTask_RestRegres_in" />
       <extension name="coverage">
@@ -67,6 +56,24 @@
       <option name="PACKAGE_NAME" value="api_tests" />
       <option name="MAIN_CLASS_NAME" value="api_tests.GetUsersListTests" />
       <option name="METHOD_NAME" value="getUserList_validateEmail" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PatchUserTests.patchUser" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestTask_RestRegres_in" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api_tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api_tests" />
+      <option name="MAIN_CLASS_NAME" value="api_tests.PatchUserTests" />
+      <option name="METHOD_NAME" value="patchUser" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -112,6 +119,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.PatchUserTests.patchUser" />
         <item itemvalue="TestNG.GetUsersListTests.getUserList_validateEmail" />
         <item itemvalue="TestNG.RegistrationTests.registrationNegativeTest" />
         <item itemvalue="TestNG.RegistrationTests.registrationPositiveTest" />
@@ -127,6 +135,19 @@
       <option name="presentableId" value="Default" />
       <updated>1725549043838</updated>
     </task>
+    <task id="LOCAL-00001" summary="first">
+      <option name="closed" value="true" />
+      <created>1725554960416</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1725554960416</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first" />
+    <option name="LAST_COMMIT_MESSAGE" value="first" />
   </component>
 </project>
